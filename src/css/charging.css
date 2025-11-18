@@ -1,0 +1,194 @@
+
+.vidCRG{
+  width: 110vw;
+  height: 120vh;
+}
+.vidcontCRG{
+  padding: 0;
+  top: -2vh;
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vidcontCRGttl{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.vidcontCRGsubttl{
+  color: white;
+  z-index: 2;
+}
+.textvidCRG{
+   z-index: 2;
+  position: absolute;
+  flex-direction: column;
+  display: flex;
+  gap: 1vh;
+  top: 20vh;
+}
+.findusBlockCRG{
+  display: flex;
+  margin-top:105vh;
+  width: 100vw;
+  height: 100vh;
+}
+.rightsidePicCRG{
+  width:70%;
+  height: 96vh;
+  background-size: 100% 100%;
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1620,w_2880,c_fit,f_auto,q_auto:best/Supercharger-Locations-Hero-Desktop-NA");
+}
+.leftsidefindusCRG{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: black;
+  padding: 2vw;
+  padding-left: 4vw;
+}
+.leftsideTTLCRG{
+  margin-top: 2vh;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.leftsideTTL2CRG{
+   font-size: 1.6rem;
+  font-weight: 600;
+}
+.descleftsideCRG{
+  margin-top: 2vh;
+  text-align: start;
+  font-size: 0.9rem;
+  color: rgb(65, 65, 65);
+}
+.findusCRG{
+  margin-top: 60vh;
+  width: 15vw;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid black;
+  padding: 10px;
+  color: black;
+  transition: all 0.2s;
+}
+.findusCRG:hover{
+  border-color: rgb(102, 102, 237);
+}
+.destinationCRG{
+  width: 70vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: black;
+}
+.destinationTTLCRG{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.destinPicCRG{
+  width: 70vw;
+  height: 55vh;
+  margin-top: 3vh;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  transition: 0.2s all;
+}
+.destinBlockCRG{
+  width: 70vw;
+  display: flex;
+  gap: 3vw;
+}
+.destinSubBlockCRG{
+  border-top: 4px solid black;
+  padding-top: 2px;
+  width: 22vw;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  cursor: pointer;
+  text-align: start;
+  transition: all 0.2s;
+}
+.subblockttlCRG{
+  margin-top: 1vh;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.subblockinfoCRG{
+  margin-top: 1.5vh;
+}
+.unactiveblockCRG{
+  padding-top: 4px;
+  border-top: 2px solid black;
+  opacity: 0.4;
+}
+.pic1CRG{
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Charging-Carousel-2-Optimize-Desktop-LHD.jpg");
+}
+.pic2CRG{
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Charging-Carousel-2-Battery-Desktop-LHD.jpg");
+}
+.pic3CRG{
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Charging-Carousel-2-Recommend-Desktop-LHD.jpg");
+}
+.goanywhereCRG{
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Charging-Freedom-To-Go-Anywhere-Desktop.jpg");
+}
+.findus2CRG{
+  width: 15vw;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid black;
+  padding: 10px;
+  color: black;
+  transition: all 0.3s;
+}
+.findus2CRG:hover{
+  color: white;
+  background-color: black;
+}
+.goanywhereTTLCRG{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.ttlblockanyCRG{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 10vh;
+  margin-right: 10vw;
+}
+.linksgoanyCRG{
+  display: flex;
+  gap: 2vw;
+  margin-top: 3vh;
+}
+.learnCRG{
+  width: 15vw;
+  text-align: center;
+  border-radius: 5px;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  background-color: white;
+  color: black;
+  transition: all 0.3s; 
+}
+.learnCRG:hover{
+  color: rgb(0, 0, 0);
+  filter: brightness(0.95);
+}

@@ -1,0 +1,153 @@
+:root{
+    user-select: none;
+}
+.firstprodttlSHOP{
+    width: 100vw;
+    height: 100vh;
+    background-size: 110% 100%;
+    background-position: center;
+    background-image: url("modelYbg.png");
+    background-color: black;
+}
+.firstprodttlSHOP2{
+    width: 100vw;
+    height: 100vh;
+    background-size: 110% 100%;
+    background-position: center;
+    background-image: url("modelYAir.avif");
+    background-color: black;
+}
+.btnprodcontSHOP{
+    margin-top: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titlebtnSHOP{
+    font-weight: 700;
+    font-size: 4rem;
+    opacity: 1;
+}
+.btnprodSHOP{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstprod{
+    display: flex;
+    width: 200vw;
+    overflow-x: hidden;
+    justify-content: left;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+.firstprodcontSHOP{
+    width: 100vw;
+}
+.arrowleftSHOP{ 
+    z-index: 10;
+    position: absolute;
+    top: 46vh;
+    left: 1.5vw;
+    width: 60px;
+    height:60px;
+    background-image: url("left-arrow.png");
+    filter: invert(1);
+        transition: all 0.2s;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.arrowrightSHOP{ 
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 46vh;
+    right: 1.5vw;
+    width: 60px;
+    height:60px;
+    background-image: url("left-arrow.png");
+    filter: invert(1);
+    transform: rotate(180deg);
+    transition: all 0.2s;
+    background-size: 100% 100%;
+}
+.arrowleftSHOP:hover, .arrowrightSHOP:hover{
+    filter: invert(0.9);
+}
+.secondprodSliderSHOP{
+    width: 90vw;
+    margin-top: 4vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.secondprodTTLSHOP{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.slider2blockSHOP{
+    margin-top: 7vw;
+    display: flex;
+    align-items: center;
+    width: 90vw;
+}
+.actSlider2SHOP{
+    z-index: 1;
+    position: relative;
+    width: auto;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.itemSlider2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.ItemPic{
+    width: 30vw;
+    height: 30vw;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.ItemPic:hover{
+    cursor: pointer;
+    background-size: 120% 120%;
+}
+.itemtitle{
+    font-size: 1.0rem;
+    font-weight: 600;
+    margin-top: 1vh;
+}
+.shopadvSHOP{
+    margin-top: 15vh;
+    width: 100vw;
+    height: 95vh;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.shopadvttlSHOP{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 55vh;
+}
+.shopadvbtnSHOP{
+    margin-top: 15px;
+    background-color: #fff;
+    color: black;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}

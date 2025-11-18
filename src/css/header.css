@@ -1,0 +1,271 @@
+
+.header { 
+  z-index: 99999;
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.headerCont{
+  transition: all 0.3s ease;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 40;
+}
+.scrolled {
+  background-color: rgba(255, 255, 255);
+      border-bottom: 1.5px solid gray;
+}
+.logoH{
+  height: 3rem;
+  width: 7em;
+  margin-left: 3rem;
+  background-image: url("/logo.png");
+  background-size: 100% 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease;
+  filter: invert(1);
+}
+.logoH:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.scrolledlg{
+  filter: invert(0);}
+.buttonsH{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.linkH{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+   font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.linkH:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.scrolledL{
+   color: black;
+}
+.scrolledL:hover{
+  background-color: rgb(205, 205, 205);
+  cursor: pointer;
+}
+.scrolledlg{
+  border-color: black;
+}
+.infosH{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 3rem;
+}
+.infoR{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: url('../assets/faq.png');
+  background-size: 100% 100%;
+  transition: all 0.3s ease;
+}
+.infoR:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.faq{
+  background-image: url('/faq.png');
+}
+.acc{
+  background-image: url('/profile.png');
+}
+.cartiC{
+  background-image: url('/cart.png');
+  width: 2rem;
+  height: 2rem;
+  background-size: 100% 100%;
+  transition: all 0.3s ease;
+}
+.lang{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/language.png');
+}
+.NscrolledI{
+  filter: invert(1);
+}
+.scrolledI{
+  filter: invert(0);
+}
+.headMen{
+width: 100vw;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  transition: all 0.3s ease;
+  overflow:visible;
+}
+.active{
+  height: 30vh;
+}
+.nActive{
+  height: 0vh;
+}
+.menuItems{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.menuItem{
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+.menuItem:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.menuPic{
+  width:17vw;
+  height: 10vw;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transition: all 0.3s ease;  
+}
+.mS{
+  background-image: url('/MS.avif');
+}
+.m3{
+  background-image: url('/M3.avif');
+}
+.mY{
+  background-image: url('/MY.avif'); 
+}
+.MobileMenu{
+   z-index: 4000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  color: white;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+.topMenMobile{
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  gap: 55vw;
+  top: 0;
+  left: 0;
+  background-color: white;
+  transition: all 0.2s;
+}
+.menuBtn{
+ font-family: "Red Hat Display", sans-serif;
+ text-align: center;
+ justify-content: center;
+ color: black;
+ transition: all 0.2s;
+ padding: 5px;
+ border-radius: 4px;
+}
+.menuBtn:active{
+  background-color: #2d2d2d;
+  color: white;
+  
+}
+.bottomMenMobile{
+  transition: all 0.1s;
+  height: 0vh;
+}
+.activeMoblMen{
+  height: 40vh;
+}
+.bottomMobilecont{
+  transition: all 0.1s;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  height: 35vh;
+}
+
+
+@media screen and (max-width: 800px) {
+  .headerCont{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .MobileMenu{
+    display: flex;
+     border-bottom: 1px solid black;
+  }
+  .logoH{
+    margin-left: 0;
+  }
+  .bottomMenMobile{
+  color: black;
+  }
+  .buttonsH{
+    color: black;
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 4vw;
+  }
+  .infosH{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    justify-content: space-between;
+    margin-right: 58vw;
+  }
+
+
+
+  
+
+
+
+}

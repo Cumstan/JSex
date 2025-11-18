@@ -1,0 +1,66 @@
+
+
+
+
+.accContainer {
+  width: 40vw;
+  background: #000000;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.accRow {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.accRow input {
+  padding: 10px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.accBtn {
+  margin-top: 15px;
+  padding: 12px;
+  background: rgb(0, 74, 177);
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.accBtn:hover {
+  filter: brightness(1.1);
+}
+
+.accinp{
+  color: rgb(0, 0, 0);
+}
+.accttl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.accpic{
+  width: 10vw;
+}
+.accttlsub{
+  color: black;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.leaveBtn{
+  width: 60px;
+  height: 60px;
+  background-size: 100% 100%;
+  background-image: url("/logout.png");
+}

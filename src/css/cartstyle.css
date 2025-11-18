@@ -1,0 +1,266 @@
+#root {
+  text-align: center;
+       user-select: none; 
+       overflow-y: hidden;
+}
+
+.cartttlACC{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.accttlblockACC{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+}
+.accpic{
+  width: 100px;
+  height: 100px;
+  background-image: url('/profile.png');
+  background-size: 100% 100%;
+  border-radius: 50px;
+}
+.accname{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.accEmail{
+   font-size: 1.5rem;
+  font-weight: 500;
+}
+.accinfoblACC{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: start;
+  text-align: start;
+}
+.itemspartcartACC{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 60vh;
+  align-items: center;
+}
+.cartsubttl{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.additemscartACC{
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: auto;
+    min-height: 65vh;
+  border-radius: 40px;
+  border: 4px dashed rgb(0, 0, 0);
+}
+.plusiconACC{
+  width: 100px;
+  height: 100px;
+  background-image: url('/plus.png');
+  filter: invert(0);
+  background-size: 100% 100%;
+  cursor: pointer;
+    transition: all 0.2s ease;
+}
+.plusiconACC:hover{
+  transform: scale(1.1);
+}
+.leaveBtn{
+  width: 50px;
+  height: 50px;
+  background-image: url('/logout.png');
+  background-size: 100% 100%;
+  cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 5vw;
+}
+.leaveBtn:hover{
+  transform: scale(1.1);
+}
+.cartitemACC{
+    display: flex;
+    width: 50vw;
+}
+.cartitempicACC{
+    width: 8vw;
+    height: 8vw;
+    background-size: 100% 100%;
+        border-radius: 15px 0px 0px 15px;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.cartitempicACC:hover{
+    background-size: 110% 110%;
+}
+.cartiteminfoACC{
+  width: 38vw;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  justify-content: space-between;
+}
+.cartitemACC{
+    display: flex;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(200, 200, 200);
+    
+    border-radius: 15px;
+    gap: 2vw;
+}
+.cartfullACC{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: auto;
+  margin-top: 20px;
+    padding-bottom: 40px;
+  align-items: center;
+}
+.cartitemnameACC{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.cartitempriceACC{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.deletebtn{
+  width: 40px;
+  height: 40px;
+  background-image: url('/trash.png');
+  background-size: 100% 100%;
+  background-position: center;
+  cursor: pointer;
+    transition: all 0.2s ease;
+}
+.deletebtn:hover{
+  transform: scale(1.1);
+}
+.quntblockACC{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.plusquant{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+    transition: all 0.2s ease;
+}
+.totalsumACC{
+  display: flex;
+  width: 95%;
+  position: relative;
+  bottom: 0;
+  gap: 20px;
+  align-items: center;
+}
+.totaltitleACC{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.totalsumvalueACC{
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.paybtn{
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+    transition: all 0.2s ease;
+}
+.itemnameblockACC{
+  text-align: start;
+  width: 20vw;
+  justify-content: start;
+  align-items: start;
+}
+
+
+
+.totalblockCRT{
+    display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 30vw;
+  height: auto;
+  background-color: #dcdcdc;
+  color: black;
+  padding-left: 20px;
+}
+.cartlineCRT{
+  margin-top: 15vh;
+  width: 400px;
+  background-color: black;
+  height: 4px;
+}
+.carttotalCRT{
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: start;
+  width: 400px;
+}
+.termsnconCRT{
+  margin-top: 2vh;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+.checkB{
+  background-color: white;
+}
+.checkoutbtn{
+  background-color: black;
+  width: 200px;
+  margin-top: 2vh;
+  cursor: pointer;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  transition: 0.2s all;
+}
+.checkoutbtn:hover{
+  transform: scale(1.05);
+}
+
+
+
+.cartblockACC{
+  margin-top:5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 70vw;
+  height: auto;
+  min-height: 60vh;
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
