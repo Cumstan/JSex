@@ -27,7 +27,7 @@ const cartSet = async () => {
     console.log(user);
   try {
     // 1. Получаем реального пользователя из БД по email
-    const resGet = await fetch(`http://localhost:5000/api/users?email=${user.email}`);
+    const resGet = await fetch(`https://serverex-xmpr.onrender.com/api/users?email=${user.email}`);
     if (!resGet.ok) throw new Error("User not found");
     const foundUser = await resGet.json();
 
@@ -38,7 +38,7 @@ const cartSet = async () => {
     };
 
     // 3. Делаем PUT по настоящему _id
-    const resPut = await fetch(`http://localhost:5000/api/users/${foundUser._id}`, {
+    const resPut = await fetch(`https://serverex-xmpr.onrender.com/api/users/${foundUser._id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(userWithItem),
@@ -77,7 +77,7 @@ setTimeout(() => {
 useEffect(() => {
   setLoad(true)
    const id = location.pathname.split("/").pop();
-        fetch("http://localhost:5000/api/items")
+        fetch("https://serverex-xmpr.onrender.com/api/items")
     .then(res => res.json())
     .then(data => {
       const found = data.find(i => i._id.toString() === id);
