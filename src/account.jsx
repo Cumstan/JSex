@@ -63,7 +63,7 @@ function Account() {
   };
 
   try {
-    const res = await fetch(`http://localhost:5000/api/users/${userId}`, {
+    const res = await fetch(`https://serverex-xmpr.onrender.com/api/users/${userId}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
