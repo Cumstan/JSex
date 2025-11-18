@@ -37,7 +37,7 @@ document.title = `Store`;
     };
     window.addEventListener('scroll', handleScroll);
 
-      fetch("http://localhost:5000/api/items")
+      fetch("https://serverex-xmpr.onrender.com/api/items")
     .then(res => res.json())
     .then(data => {
       setShopItems(data);
